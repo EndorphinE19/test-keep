@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add vue-select@beta
+
+PATH: 
+  C:\Users\warfa\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\warfa\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\warfa\AppData\Local\Android\Sdk\platform;C:\Users\warfa\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs;C:\cordova\apache-ant-1.9.15\bin;C:\grable;C:\src\flutter\bin;C:\Program Files (x86)\Yarn\bin;C:\Program Files\nodejs;C:\Program Files\dotnet;C:\Program Files\Docker\Docker\resources\bin;C:\Users\warfa\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\warfa\AppData\Local\Programs\Python\Python38-32;C:\Users\warfa\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;C:\Program Files\JetBrains\WebStorm 2019.3.4\bin;C:\src\flutter;C:\Users\warfa\AppData\Local\Yarn\bin;C:\Users\warfa\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  18.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\warfa\Desktop\keepcode\keepcode\node_modules\@rollup\rollup-win32-x64-msvc\rollup.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "keepcode",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vue-tsc && vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "vue": "^3.4.15",
+      "vue-router": "^4.2.5"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^5.0.3",
+      "typescript": "^5.2.2",
+      "vite": "^5.1.0",
+      "vue-tsc": "^1.8.27"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
